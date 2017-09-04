@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B33EC911F5DBA91002F2037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC901F5DBA91002F2037 /* AppDelegate.swift */; };
+		7B33EC931F5DBA91002F2037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC921F5DBA91002F2037 /* ViewController.swift */; };
+		7B33EC961F5DBA91002F2037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC941F5DBA91002F2037 /* Main.storyboard */; };
+		7B33EC981F5DBA91002F2037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC971F5DBA91002F2037 /* Assets.xcassets */; };
+		7B33EC9B1F5DBA91002F2037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */; };
+		7B33ECA61F5DBA91002F2037 /* ChattyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33ECA51F5DBA91002F2037 /* ChattyCatTests.swift */; };
+		7B33ECB11F5DBA91002F2037 /* ChattyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33ECB01F5DBA91002F2037 /* ChattyCatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B33ECA21F5DBA91002F2037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B33EC851F5DBA91002F2037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B33EC8C1F5DBA91002F2037;
+			remoteInfo = ChattyCat;
+		};
+		7B33ECAD1F5DBA91002F2037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B33EC851F5DBA91002F2037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B33EC8C1F5DBA91002F2037;
+			remoteInfo = ChattyCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B33EC8D1F5DBA91002F2037 /* ChattyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B33EC901F5DBA91002F2037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B33EC921F5DBA91002F2037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B33EC951F5DBA91002F2037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B33EC971F5DBA91002F2037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B33EC9A1F5DBA91002F2037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B33EC9C1F5DBA91002F2037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B33ECA11F5DBA91002F2037 /* ChattyCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattyCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B33ECA51F5DBA91002F2037 /* ChattyCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattyCatTests.swift; sourceTree = "<group>"; };
+		7B33ECA71F5DBA91002F2037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B33ECAC1F5DBA91002F2037 /* ChattyCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattyCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B33ECB01F5DBA91002F2037 /* ChattyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattyCatUITests.swift; sourceTree = "<group>"; };
+		7B33ECB21F5DBA91002F2037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B33EC8A1F5DBA91002F2037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33EC9E1F5DBA91002F2037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33ECA91F5DBA91002F2037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B33EC841F5DBA91002F2037 = {
+			isa = PBXGroup;
+			children = (
+				7B33EC8F1F5DBA91002F2037 /* ChattyCat */,
+				7B33ECA41F5DBA91002F2037 /* ChattyCatTests */,
+				7B33ECAF1F5DBA91002F2037 /* ChattyCatUITests */,
+				7B33EC8E1F5DBA91002F2037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B33EC8E1F5DBA91002F2037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B33EC8D1F5DBA91002F2037 /* ChattyCat.app */,
+				7B33ECA11F5DBA91002F2037 /* ChattyCatTests.xctest */,
+				7B33ECAC1F5DBA91002F2037 /* ChattyCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B33EC8F1F5DBA91002F2037 /* ChattyCat */ = {
+			isa = PBXGroup;
+			children = (
+				7B33EC901F5DBA91002F2037 /* AppDelegate.swift */,
+				7B33EC921F5DBA91002F2037 /* ViewController.swift */,
+				7B33EC941F5DBA91002F2037 /* Main.storyboard */,
+				7B33EC971F5DBA91002F2037 /* Assets.xcassets */,
+				7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */,
+				7B33EC9C1F5DBA91002F2037 /* Info.plist */,
+			);
+			path = ChattyCat;
+			sourceTree = "<group>";
+		};
+		7B33ECA41F5DBA91002F2037 /* ChattyCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B33ECA51F5DBA91002F2037 /* ChattyCatTests.swift */,
+				7B33ECA71F5DBA91002F2037 /* Info.plist */,
+			);
+			path = ChattyCatTests;
+			sourceTree = "<group>";
+		};
+		7B33ECAF1F5DBA91002F2037 /* ChattyCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B33ECB01F5DBA91002F2037 /* ChattyCatUITests.swift */,
+				7B33ECB21F5DBA91002F2037 /* Info.plist */,
+			);
+			path = ChattyCatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B33EC8C1F5DBA91002F2037 /* ChattyCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B33ECB51F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCat" */;
+			buildPhases = (
+				7B33EC891F5DBA91002F2037 /* Sources */,
+				7B33EC8A1F5DBA91002F2037 /* Frameworks */,
+				7B33EC8B1F5DBA91002F2037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChattyCat;
+			productName = ChattyCat;
+			productReference = 7B33EC8D1F5DBA91002F2037 /* ChattyCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B33ECA01F5DBA91002F2037 /* ChattyCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B33ECB81F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCatTests" */;
+			buildPhases = (
+				7B33EC9D1F5DBA91002F2037 /* Sources */,
+				7B33EC9E1F5DBA91002F2037 /* Frameworks */,
+				7B33EC9F1F5DBA91002F2037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B33ECA31F5DBA91002F2037 /* PBXTargetDependency */,
+			);
+			name = ChattyCatTests;
+			productName = ChattyCatTests;
+			productReference = 7B33ECA11F5DBA91002F2037 /* ChattyCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B33ECAB1F5DBA91002F2037 /* ChattyCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B33ECBB1F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCatUITests" */;
+			buildPhases = (
+				7B33ECA81F5DBA91002F2037 /* Sources */,
+				7B33ECA91F5DBA91002F2037 /* Frameworks */,
+				7B33ECAA1F5DBA91002F2037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B33ECAE1F5DBA91002F2037 /* PBXTargetDependency */,
+			);
+			name = ChattyCatUITests;
+			productName = ChattyCatUITests;
+			productReference = 7B33ECAC1F5DBA91002F2037 /* ChattyCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B33EC851F5DBA91002F2037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = I.am.GoodBad;
+				TargetAttributes = {
+					7B33EC8C1F5DBA91002F2037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4AM5US9G8B;
+						ProvisioningStyle = Automatic;
+					};
+					7B33ECA01F5DBA91002F2037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4AM5US9G8B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B33EC8C1F5DBA91002F2037;
+					};
+					7B33ECAB1F5DBA91002F2037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4AM5US9G8B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B33EC8C1F5DBA91002F2037;
+					};
+				};
+			};
+			buildConfigurationList = 7B33EC881F5DBA91002F2037 /* Build configuration list for PBXProject "ChattyCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B33EC841F5DBA91002F2037;
+			productRefGroup = 7B33EC8E1F5DBA91002F2037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B33EC8C1F5DBA91002F2037 /* ChattyCat */,
+				7B33ECA01F5DBA91002F2037 /* ChattyCatTests */,
+				7B33ECAB1F5DBA91002F2037 /* ChattyCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B33EC8B1F5DBA91002F2037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B33EC9B1F5DBA91002F2037 /* LaunchScreen.storyboard in Resources */,
+				7B33EC981F5DBA91002F2037 /* Assets.xcassets in Resources */,
+				7B33EC961F5DBA91002F2037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33EC9F1F5DBA91002F2037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33ECAA1F5DBA91002F2037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B33EC891F5DBA91002F2037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B33EC931F5DBA91002F2037 /* ViewController.swift in Sources */,
+				7B33EC911F5DBA91002F2037 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33EC9D1F5DBA91002F2037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B33ECA61F5DBA91002F2037 /* ChattyCatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B33ECA81F5DBA91002F2037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B33ECB11F5DBA91002F2037 /* ChattyCatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B33ECA31F5DBA91002F2037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B33EC8C1F5DBA91002F2037 /* ChattyCat */;
+			targetProxy = 7B33ECA21F5DBA91002F2037 /* PBXContainerItemProxy */;
+		};
+		7B33ECAE1F5DBA91002F2037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B33EC8C1F5DBA91002F2037 /* ChattyCat */;
+			targetProxy = 7B33ECAD1F5DBA91002F2037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B33EC941F5DBA91002F2037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B33EC951F5DBA91002F2037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B33EC9A1F5DBA91002F2037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B33ECB31F5DBA91002F2037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B33ECB41F5DBA91002F2037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B33ECB61F5DBA91002F2037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7B33ECB71F5DBA91002F2037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7B33ECB91F5DBA91002F2037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChattyCat.app/ChattyCat";
+			};
+			name = Debug;
+		};
+		7B33ECBA1F5DBA91002F2037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChattyCat.app/ChattyCat";
+			};
+			name = Release;
+		};
+		7B33ECBC1F5DBA91002F2037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChattyCat;
+			};
+			name = Debug;
+		};
+		7B33ECBD1F5DBA91002F2037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4AM5US9G8B;
+				INFOPLIST_FILE = ChattyCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChattyCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B33EC881F5DBA91002F2037 /* Build configuration list for PBXProject "ChattyCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B33ECB31F5DBA91002F2037 /* Debug */,
+				7B33ECB41F5DBA91002F2037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B33ECB51F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B33ECB61F5DBA91002F2037 /* Debug */,
+				7B33ECB71F5DBA91002F2037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B33ECB81F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B33ECB91F5DBA91002F2037 /* Debug */,
+				7B33ECBA1F5DBA91002F2037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B33ECBB1F5DBA91002F2037 /* Build configuration list for PBXNativeTarget "ChattyCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B33ECBC1F5DBA91002F2037 /* Debug */,
+				7B33ECBD1F5DBA91002F2037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B33EC851F5DBA91002F2037 /* Project object */;
+}
