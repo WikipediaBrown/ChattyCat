@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7B33EC911F5DBA91002F2037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC901F5DBA91002F2037 /* AppDelegate.swift */; };
 		7B33EC931F5DBA91002F2037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC921F5DBA91002F2037 /* ViewController.swift */; };
-		7B33EC961F5DBA91002F2037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC941F5DBA91002F2037 /* Main.storyboard */; };
 		7B33EC981F5DBA91002F2037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC971F5DBA91002F2037 /* Assets.xcassets */; };
 		7B33EC9B1F5DBA91002F2037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */; };
 		7B33ECA61F5DBA91002F2037 /* ChattyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33ECA51F5DBA91002F2037 /* ChattyCatTests.swift */; };
@@ -37,7 +36,6 @@
 		7B33EC8D1F5DBA91002F2037 /* ChattyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B33EC901F5DBA91002F2037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B33EC921F5DBA91002F2037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B33EC951F5DBA91002F2037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B33EC971F5DBA91002F2037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B33EC9A1F5DBA91002F2037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B33EC9C1F5DBA91002F2037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				7B33EC901F5DBA91002F2037 /* AppDelegate.swift */,
 				7B33EC921F5DBA91002F2037 /* ViewController.swift */,
-				7B33EC941F5DBA91002F2037 /* Main.storyboard */,
 				7B33EC971F5DBA91002F2037 /* Assets.xcassets */,
 				7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */,
 				7B33EC9C1F5DBA91002F2037 /* Info.plist */,
@@ -237,7 +234,6 @@
 			files = (
 				7B33EC9B1F5DBA91002F2037 /* LaunchScreen.storyboard in Resources */,
 				7B33EC981F5DBA91002F2037 /* Assets.xcassets in Resources */,
-				7B33EC961F5DBA91002F2037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +295,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7B33EC941F5DBA91002F2037 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B33EC951F5DBA91002F2037 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,11 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4AM5US9G8B;
 				INFOPLIST_FILE = ChattyCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4AM5US9G8B;
 				INFOPLIST_FILE = ChattyCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IamGoodBad.ChattyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
