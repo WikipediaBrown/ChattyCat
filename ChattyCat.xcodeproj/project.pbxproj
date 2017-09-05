@@ -15,6 +15,8 @@
 		7B33ECA61F5DBA91002F2037 /* ChattyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33ECA51F5DBA91002F2037 /* ChattyCatTests.swift */; };
 		7B33ECB11F5DBA91002F2037 /* ChattyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33ECB01F5DBA91002F2037 /* ChattyCatUITests.swift */; };
 		7BEA246A1F5DDA3000EBCC7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA24691F5DDA3000EBCC7A /* GoogleService-Info.plist */; };
+		7BFE540C1F5DF594006279E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE540B1F5DF594006279E3 /* Constants.swift */; };
+		7BFE54101F5E1A4A006279E3 /* ChatDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE540F1F5E1A4A006279E3 /* ChatDashboardViewController.swift */; };
 		A78AA0D8662066FCC5A9635E /* Pods_ChattyCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F54F1EA41D01CE228C9782 /* Pods_ChattyCat.framework */; };
 		C15C257979830A71F6378F36 /* Pods_ChattyCatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F497CB2E2036E65824663CA5 /* Pods_ChattyCatUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,8 @@
 		7B33ECB01F5DBA91002F2037 /* ChattyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattyCatUITests.swift; sourceTree = "<group>"; };
 		7B33ECB21F5DBA91002F2037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEA24691F5DDA3000EBCC7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BFE540B1F5DF594006279E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7BFE540F1F5E1A4A006279E3 /* ChatDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDashboardViewController.swift; sourceTree = "<group>"; };
 		880308C18CCD7B5DEC7FD914 /* Pods_ChattyCatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChattyCatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F54F1EA41D01CE228C9782 /* Pods_ChattyCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChattyCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA9227E12F6F71EF0DF9333 /* Pods-ChattyCatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChattyCatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChattyCatTests/Pods-ChattyCatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +118,10 @@
 		7B33EC8F1F5DBA91002F2037 /* ChattyCat */ = {
 			isa = PBXGroup;
 			children = (
+				7BFE540B1F5DF594006279E3 /* Constants.swift */,
 				7B33EC901F5DBA91002F2037 /* AppDelegate.swift */,
 				7B33EC921F5DBA91002F2037 /* LoginViewController.swift */,
+				7BFE540F1F5E1A4A006279E3 /* ChatDashboardViewController.swift */,
 				7B33EC971F5DBA91002F2037 /* Assets.xcassets */,
 				7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */,
 				7B33EC9C1F5DBA91002F2037 /* Info.plist */,
@@ -450,7 +456,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B33EC931F5DBA91002F2037 /* LoginViewController.swift in Sources */,
+				7BFE54101F5E1A4A006279E3 /* ChatDashboardViewController.swift in Sources */,
 				7B33EC911F5DBA91002F2037 /* AppDelegate.swift in Sources */,
+				7BFE540C1F5DF594006279E3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
