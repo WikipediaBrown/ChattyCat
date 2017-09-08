@@ -20,8 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Configure Firebase
         FirebaseApp.configure()
         
+        // Decide which view controller
+        let rootViewController = Auth.auth().currentUser?.uid == nil ? LoginViewController(): ChatDashboardViewController()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = LoginViewController()
+        window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
         return true
     }

@@ -17,6 +17,16 @@ extension String {
     static let thePasswordIsInvalidOrTheUserDoesNotHaveAPassword = "The password is invalid or the user does not have a password."
     static let thereIsNoUserRecordCorrespondingToThisIdentifierTheUserMayHaveBeenDeleted = "There is no user record corresponding to this identifier. The user may have been deleted."
     
+    static let chatDashboardCell = "chatDashboardCell"
+    static let catChatsSectionHeader = "catChatsSectionHeader"
+    
+}
+
+// Interval Constants
+extension TimeInterval {
+    static let defaultInterval: TimeInterval = {
+        return TimeInterval(exactly: 45000) ?? TimeInterval()
+    }()
 }
 
 // Integer Constants
@@ -24,9 +34,9 @@ extension Integer {
 
 }
 
-// Float Constants
-extension Float {
-
+// Core Graphics Float Constants
+extension CGFloat {
+    static let navigationBarHeight: CGFloat = 64.0
 }
 
 // UIColor constants
