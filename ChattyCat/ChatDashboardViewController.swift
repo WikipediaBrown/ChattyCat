@@ -34,8 +34,9 @@ final class ChatDashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
+//        UserChatDataSource.shared.chatDashboard = self
         UserChatDataSource.shared.collectionView = chatListCollectionView
-        UserChatDataSource.shared.configure()
+        UserChatDataSource.shared.configure(chatDashboard: self)
         setupViews()
     }
     

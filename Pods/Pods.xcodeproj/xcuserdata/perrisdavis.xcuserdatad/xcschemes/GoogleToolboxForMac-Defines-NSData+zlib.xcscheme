@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3FA4EAB5CC4233B68CDE11407A5D7141"
-               BuildableName = "Pods_ChattyCatUITests.framework"
-               BlueprintName = "Pods-ChattyCatUITests"
+               BlueprintIdentifier = "433E90BF6136E433A0FEA61CD4159E56"
+               BuildableName = "GoogleToolboxForMac.framework"
+               BlueprintName = "GoogleToolboxForMac-Defines-NSData+zlib"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3FA4EAB5CC4233B68CDE11407A5D7141"
-            BuildableName = "Pods_ChattyCatUITests.framework"
-            BlueprintName = "Pods-ChattyCatUITests"
+            BlueprintIdentifier = "433E90BF6136E433A0FEA61CD4159E56"
+            BuildableName = "GoogleToolboxForMac.framework"
+            BlueprintName = "GoogleToolboxForMac-Defines-NSData+zlib"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

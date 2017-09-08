@@ -12,6 +12,7 @@ import Firebase
 class FirebaseArray {
     
     var array = [DataSnapshot]()
+    
     private var handleArray = [DatabaseHandle]()
     
     let firebaseQuery: DatabaseQuery

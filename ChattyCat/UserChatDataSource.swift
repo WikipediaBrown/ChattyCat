@@ -13,12 +13,14 @@ final class UserChatDataSource: NSObject {
     
     static let shared = UserChatDataSource()
     
+    weak var chatDashboard: ChatDashboardViewController?
+    
+    weak var collectionView: UICollectionView?
+    
     var openChats: FirebaseArray?
-    
-    var collectionView: UICollectionView?
-    
+
     // This configures the Firebase Array (a special array I made for reading lists in Firebase)
-    func configure() {
+    func configure(chatDashboard: UIViewController) {
         
         guard
             let uid = Auth.auth().currentUser?.uid
@@ -29,6 +31,8 @@ final class UserChatDataSource: NSObject {
         let chatsReference = FirebaseHelper.shared.catChats,
         query = chatsReference.queryOrdered(byChild: "users/\(uid)").queryEqual(toValue: true)
         self.openChats = FirebaseArray(query: query, identifier: "catChats", delegate: self)
+        
+        self.chatDashboard = chatDashboard as? ChatDashboardViewController
     }
 
 }
@@ -89,6 +93,22 @@ extension UserChatDataSource: UICollectionViewDataSource, UICollectionViewDelega
     
     // didSelect for Cells
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+        guard
+            let catChatID = openChats?.array[indexPath.row].key
+        else {return}
+        
+        print(catChatID)
+
+        let catChatWindow = CatChatViewController()
+        catChatWindow.catChatID = catChatID
+        
+        chatDashboard?.present(catChatWindow, animated: true) { 
+            print("ok")
+        }
+        
+        
 //        MenuViewController.shared.itemDetailViewController.catalogSection = "Fire"
 //        MenuViewController.shared.itemDetailViewController.itemPosition = indexPath.row
 //        MenuViewController.shared.swapSection(viewController: MenuViewController.shared.itemDetailViewController)

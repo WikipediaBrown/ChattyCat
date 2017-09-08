@@ -16,11 +16,13 @@ target 'ChattyCat' do
   target 'ChattyCatTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase'
   end
 
   target 'ChattyCatUITests' do
-    inherit! :search_paths
-    # Pods for testing
+      inherit! :search_paths
+      # Pods for testing
+      pod 'Firebase'
   end
 
 end

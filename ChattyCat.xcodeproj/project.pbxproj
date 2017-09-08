@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		661B40D00EF9F502AF59593F /* Pods_ChattyCatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880308C18CCD7B5DEC7FD914 /* Pods_ChattyCatTests.framework */; };
+		7B0560F21F62A33800C4C5F0 /* CatChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0560F11F62A33800C4C5F0 /* CatChatViewController.swift */; };
 		7B33EC911F5DBA91002F2037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC901F5DBA91002F2037 /* AppDelegate.swift */; };
 		7B33EC931F5DBA91002F2037 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33EC921F5DBA91002F2037 /* LoginViewController.swift */; };
 		7B33EC981F5DBA91002F2037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B33EC971F5DBA91002F2037 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		0FCFBF073D1591BB8F9C55C9 /* Pods-ChattyCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChattyCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChattyCat/Pods-ChattyCat.release.xcconfig"; sourceTree = "<group>"; };
 		6C9A027729117AFC95DF39F4 /* Pods-ChattyCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChattyCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChattyCat/Pods-ChattyCat.debug.xcconfig"; sourceTree = "<group>"; };
 		73AD3C3AD8206D38AC0AAC2F /* Pods-ChattyCatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChattyCatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChattyCatUITests/Pods-ChattyCatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0560F11F62A33800C4C5F0 /* CatChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatChatViewController.swift; sourceTree = "<group>"; };
 		7B33EC8D1F5DBA91002F2037 /* ChattyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B33EC901F5DBA91002F2037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B33EC921F5DBA91002F2037 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0560F31F62A34F00C4C5F0 /* Chat Window */ = {
+			isa = PBXGroup;
+			children = (
+				7B0560F11F62A33800C4C5F0 /* CatChatViewController.swift */,
+			);
+			name = "Chat Window";
+			sourceTree = "<group>";
+		};
 		7B33EC841F5DBA91002F2037 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 				7B33EC901F5DBA91002F2037 /* AppDelegate.swift */,
 				7B33EC921F5DBA91002F2037 /* LoginViewController.swift */,
 				7BFE54111F5E3D99006279E3 /* Chat Dashboard */,
+				7B0560F31F62A34F00C4C5F0 /* Chat Window */,
 				7B33EC971F5DBA91002F2037 /* Assets.xcassets */,
 				7B33EC991F5DBA91002F2037 /* LaunchScreen.storyboard */,
 				7B33EC9C1F5DBA91002F2037 /* Info.plist */,
@@ -365,9 +376,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChattyCat/Pods-ChattyCat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-615f275e/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -395,9 +417,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChattyCatUITests/Pods-ChattyCatUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,13 +452,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChattyCat-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EA1BA2B3574F458BD2FD131 /* [CP] Embed Pods Frameworks */ = {
@@ -440,9 +470,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChattyCatTests/Pods-ChattyCatTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,13 +490,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChattyCatUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B33C5616961EB32F719D5B18 /* [CP] Check Pods Manifest.lock */ = {
@@ -470,13 +508,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChattyCatTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2DE8596EDFA41005741C98C /* [CP] Copy Pods Resources */ = {
@@ -502,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFE54201F622F7C006279E3 /* ImageCache.swift in Sources */,
+				7B0560F21F62A33800C4C5F0 /* CatChatViewController.swift in Sources */,
 				7BFE541C1F60C2A3006279E3 /* ChatDashboardCollectionReusableView.swift in Sources */,
 				7BFE54181F5E43A0006279E3 /* FirebaseHelper.swift in Sources */,
 				7BFE54221F622FC4006279E3 /* RequestManager.swift in Sources */,

@@ -1,4 +1,6 @@
 PODS:
+  - Firebase (4.1.1):
+    - Firebase/Core (= 4.1.1)
   - Firebase/Auth (4.1.1):
     - Firebase/Core
     - FirebaseAuth (= 4.1.1)
@@ -64,6 +66,7 @@ PODS:
   - Protobuf (3.4.0)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -85,6 +88,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
 
-PODFILE CHECKSUM: e05f925e59808ace033c47ba1b290f5e0408649c
+PODFILE CHECKSUM: 648a6222a3e3c49580a0f3145554735db61399ba
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1

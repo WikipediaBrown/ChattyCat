@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GoogleToolboxForMac.xcscheme</key>
+		<key>GoogleToolboxForMac-615f275e.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac-Defines-NSData+zlib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,7 +52,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>04979F270B0EECDD3DC74A79078F00E9</key>
+		<key>069A04E833BEC48613B86939781B0C75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>07B3E943EBD1A061079B5FB79D7FFAB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>13A24A8D222384EFDEF6FBFC18BC8E7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,17 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3FC1CD86080DCF5B9BFE829D3ACAE6C6</key>
+		<key>3FA4EAB5CC4233B68CDE11407A5D7141</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4E78D5CA257751927A9C7FA9E39246EA</key>
+		<key>433E90BF6136E433A0FEA61CD4159E56</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D5CEDECD3D8DC52EA507E0431BDA8A0</key>
+		<key>9C94BFC255F45D2AB49ED8E6822BEBEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -78,11 +93,6 @@
 			<true/>
 		</dict>
 		<key>E4DD95323C54A78F879DAB0F1508B8E7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E8CCCBC7CBA66011D2B388F791B67148</key>
 		<dict>
 			<key>primary</key>
 			<true/>
